@@ -10,3 +10,6 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.bg-success {
+    background-color: rgb(143, 183, 228) !important;
+}
