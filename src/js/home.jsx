@@ -8,12 +8,10 @@ import Card from "./card"
 const Home = () => {
 	return (
 		<>
-			<div className="bg-success text-white">
-				<div className="text-center">
-					<h1 className="text-center mt-5">Let's Play Tic Tac Toe!</h1>
-					<h3 className="text-center mt-5">Pick A Weapon</h3>
-					<Card />
-				</div>
+			<div className="bg-success text-white text-center">
+				<h1 className="text-center mt-5">Let's Play Tic Tac Toe!</h1>
+				<h3 className="text-center mt-5">Pick A Weapon</h3>
+				<Card />
 			</div>
 		</>
 	);
